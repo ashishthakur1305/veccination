@@ -1,0 +1,32 @@
+
+footer {
+    background: url(/assest/image/card-bg.png);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+}
+
+footer nav {
+  margin-bottom: 20px;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+footer nav a.active {
+  border-bottom: 2px solid #00cfff;
+}
+
+footer .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}

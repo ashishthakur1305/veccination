@@ -1,0 +1,104 @@
+.vaccination-head {
+  color: #FFF;
+  font-family: var(--font-family-Inter-bold);
+  font-size: 47.9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 98%;
+
+}
+
+
+.text {
+  display: flex;
+  align-items: center;
+  padding-bottom: 39px;
+}
+
+.vaccination-txt {
+  color: rgba(255, 255, 255, 0.50);
+
+  font-family: var(--font-family-Inter-medium);
+  font-size: 19.958px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+  padding-bottom: 80px;
+}
+
+
+.card {
+  border-radius: 49.896px;
+  border: 2.994px solid rgba(255, 255, 255, 0.50);
+  padding: 40px 40px;
+  margin-right: 74px;
+  width: 33%;
+
+}
+
+img.icon-img {
+  width: 70px;
+  height: 70px;
+}
+
+
+
+.vaccination-section {
+  background: url(/assest/image/card-bg.png);
+}
+
+/* 
+.highlighted {
+  background: rgba(255, 255, 255, 0.1);
+} */
+
+.card .icon {
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 12px;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
+h3.card-heading {
+  color: rgb(255, 255, 255);
+  font-family: var(--font-family-Inter-bold);
+  font-size: 23.95px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 30px;
+
+}
+
+.font {
+  display: none;
+}
+
+p.card-txt {
+  color: #FFF;
+  font-family: var(--font-family-Inter-medium);
+  font-size: 17.963px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 43px;
+}
+
+a.card-link {
+  color: rgba(255, 255, 255, 0.50);
+  font-family: var(--font-family-Inter-medium);
+  font-size: 17.963px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}

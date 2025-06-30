@@ -1,0 +1,169 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.form-heading {
+  color: #000;
+  /* text-align: center; */
+  font-family: var(--font-family-Inter-extra-bold);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+
+}
+
+h4.name {
+  color: #000;
+  font-family: var(--font-family-Inter-medium);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 20px;
+  background: rgba(11, 21, 60, 0.15);
+}
+
+h4.number {
+  color: #000;
+  font-family: var(--font-family-Inter-medium);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 40px;
+
+}
+
+
+.info {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+
+}
+
+.phone-group {
+  display: flex;
+  gap: 10px;
+}
+
+.country-code {
+  background: #e1e1e1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.phone-group input {
+  flex: 1;
+}
+
+.verify-btn {
+  background: #00cfff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 70px;
+  cursor: pointer;
+}
+
+.verify-btn:hover {
+  background: #00b5e0;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #00cfff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 0;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #00b5e0;
+}
+
+.registered {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.registered a {
+  color: #00cfff;
+  text-decoration: none;
+}
+
+.registered a:hover {
+  text-decoration: underline;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+
+.covid-label {
+  position: absolute;
+  bottom: 55px;
+  left: 116px;
+  color: #fff;
+}
+
+.covid-label h3 {
+  margin: 0 0 10px 0;
+}
+
+.verify-status {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.verify-status:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-section {
+    width: 100%;
+  }
+}

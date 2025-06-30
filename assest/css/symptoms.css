@@ -1,0 +1,119 @@
+.symptoms-section{
+  background: url(/assest/image/card-bg.png);
+}
+
+.header-symptoms{
+  text-align: center;
+      padding-top: 60px;
+
+}
+
+p.symptom-txt {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family-Inter-medium);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+        padding-bottom: 20px;
+
+}
+.description {
+    max-width: 785px;
+    margin: 0 auto 50px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: var(--font-family-Inter-regular);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+        /* padding-bottom: 200px; */
+
+}
+h1.symptom-head {
+    color: #FFF;
+    font-family: var(--font-family-Inter-medium);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+        padding-bottom: 40px;
+
+}
+
+span.symptom-highlight {
+    color: #17C2EC;
+    font-family: var(--font-family-Inter-medium);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header h1 span {
+  color: #00f5ff;
+}
+
+
+
+.symptoms-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symptoms {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.symptom-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+.label {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #00f5ff;
+    color: #17C2EC;
+    text-align: center;
+    font-family: var(--font-family-Inter-medium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.central-image img {
+  max-width: 250px;
+  margin: 0 60px;
+}
+
+@media (max-width: 900px) {
+  .symptoms-content {
+    flex-direction: column;
+  }
+
+  .central-image img {
+    margin: 30px 0;
+  }
+
+  .symptoms {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .symptom-item {
+    flex-direction: column;
+  }
+}
