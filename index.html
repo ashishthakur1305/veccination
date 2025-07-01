@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    
     <header class="header">
 
         <div class="container">
@@ -52,7 +53,7 @@
             <source media="(max-width: 599px)" srcset="assest/image/mb-header.png">
             <source media="(min-width: 600px) and (max-width: 1023px)" srcset="assest/image/header-mobile.png">
             <source media="(min-width: 1024px)" srcset="assest/image/header-desktop.png">
-            <img src="assest/image/header-desktop.png" alt="header-background " style="height: 1024px;width:100%; ">
+            <img src="assest/image/header-desktop.png" alt="header-background " style="width:100%; ">
         </picture>
 
         <div class="hero-section">
@@ -87,10 +88,12 @@
                             <div class="swiper mainSwiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img src="assest/image/unsplash_wnSEwHMhxho.png" alt="Vaccine">
+                                        <img src="assest/image/unsplash_wnSEwHMhxho.png" alt="Vaccine"
+                                            class="swiper-image">
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="assest/image/unsplash_wnSEwHMhxho.png" alt="Vaccine">
+                                        <img src="assest/image/unsplash_wnSEwHMhxho.png" alt="Vaccine"
+                                            class="swiper-image">
                                     </div>
                                 </div>
                             </div>
@@ -158,13 +161,24 @@
 
         </div>
 
-        </div>
+
 
 
 
     </section>
+
+
+
     <section>
         <div class="marquee">
+            <span><img src="assest/image/m1.png" alt=""></span>
+            <span><img src="assest/image/m2.png" alt=""></span>
+            <span><img src="assest/image/m3.png" alt=""></span>
+            <span><img src="assest/image/m4.png" alt=""></span>
+            <span><img src="assest/image/m1.png" alt=""></span>
+            <span><img src="assest/image/m2.png" alt=""></span>
+            <span><img src="assest/image/m3.png" alt=""></span>
+            <span><img src="assest/image/m4.png" alt=""></span>
             <span><img src="assest/image/m1.png" alt=""></span>
             <span><img src="assest/image/m2.png" alt=""></span>
             <span><img src="assest/image/m3.png" alt=""></span>
@@ -176,18 +190,18 @@
 
         <div class="container">
             <div class="form-parent">
-            <div class="container-form">
-                <h2 class="form-description">Check your COVID-19 result on our Database</h2>
-                <div class="form-box">
-                    <input type="text" placeholder="Okeowo" class="input-field" />
-                    <input type="text" placeholder="NIK Number" class="input-field second" />
-                    <button class=" check-btn">Check</button>
+                <div class="container-form">
+                    <h2 class="form-description">Check your COVID-19 result on our Database</h2>
+                    <div class="form-box">
+                        <input type="text" placeholder="Okeowo" class="input-field" />
+                        <input type="text" placeholder="NIK Number" class="input-field second" />
+                        <button class=" check-btn">Check</button>
+                    </div>
+                    <div class="certificate-link">
+                        Need a certificate for your COVID-19 result? Please click
+                        <a href="#">here</a>
+                    </div>
                 </div>
-                <div class="certificate-link">
-                    Need a certificate for your COVID-19 result? Please click
-                    <a href="#">here</a>
-                </div>
-            </div>
             </div>
 
         </div>
@@ -290,37 +304,43 @@
             <div class="symptoms-content">
                 <!-- Left symptoms -->
                 <div class="symptoms left">
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item one">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">High Fever</div>
                     </div>
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item two">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">Loss sense of smell</div>
                     </div>
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item three">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">Dry cough</div>
                     </div>
                 </div>
 
                 <!-- Center image -->
                 <div class="central-image">
-                    <img src="assest/image/corona-man.png" alt="Man with mask" />
+                    <picture class="corona-man">
+                        <source media="(max-width: 599px)" srcset="assest/image/corona-mobile.png">
+                        <source media="(min-width: 600px) and (max-width: 1023px)"
+                            srcset="assest/image/corona-desktop.png">
+                        <source media="(min-width: 1024px)" srcset="assest/image/corona-man.png">
+                        <img src="assest/image/corona-man.png" alt="header-background " style="width:100%; ">
+                    </picture>
                 </div>
 
                 <!-- Right symptoms -->
                 <div class="symptoms right">
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item four">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">Loss of sense of taste</div>
                     </div>
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item five">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">Difficulty Breathing</div>
                     </div>
-                    <div class="symptom-item">
-                        <img src="assest/image/coronavirus.png" alt="virus" />
+                    <div class="symptom-item six">
+                        <img src="assest/image/coronavirus.png" alt="virus" class="virus-img"/>
                         <div class="label">Sore Throat</div>
                     </div>
                 </div>
@@ -332,7 +352,7 @@
 
     <section class="feedback-section">
         <p class="feedback-label">FEEDBACK</p>
-        <h2>What our Patients Think</h2>
+        <h2 class="feedback-head">What our Patients Think</h2>
         <p class="description-feedback">
             Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit.
             Mi vestibulum, ullamcorper venenatis imperdiet augue arcu donec neque.
@@ -344,11 +364,19 @@
                     <img src="assest/image/injection.png" alt="">
                 </div>
                 <div class="testimonial">
-                    <img src="" alt="Person 1" />
-                    <h4>Oyindamola Maja</h4>
-                    <p class="location">Badagry, Lagos</p>
-                    <p class="text">
-                        “Been stressing about a close centre to get the covid-19 vaccine, until I tried Vaccination.ng”
+
+                    <div class="testiomoal-flex">
+                        <img src="assest/image/Rectangle 24.png" alt="Person 1" />
+
+                        <div class="testimonal-content">
+                            <h4 class="testimonal-head">Oyindamola Maja</h4>
+
+                            <p class="location">Badagry, Lagos</p>
+                        </div>
+                    </div>
+                    <p class="text-tstimonal">
+                        “Been stressing about a close centre to get the <span class="highlight">covid-19 </span>,vaccine
+                        until I tried Vaccination.ng”
                     </p>
                 </div>
             </div>
@@ -359,11 +387,18 @@
                     <img src="assest/image/injection.png" alt="">
                 </div>
                 <div class="testimonial highlighted">
-                    <img src="" alt="Person 2" />
-                    <h4>Okeowo Lekan</h4>
-                    <p class="location">Ikeja, Lagos</p>
-                    <p class="text">
-                        “Got my vaccine very close to my house. Was very easy scheduling an appointment.”
+                    <div class="testiomoal-flex">
+                        <img src="assest/image/Rectangle 24.png" alt="Person 1" />
+
+                        <div class="testimonal-content">
+                            <h4 class="testimonal-head">Oyindamola Maja</h4>
+
+                            <p class="location">Badagry, Lagos</p>
+                        </div>
+                    </div>
+                    <p class="text-tstimonal">
+                        “Been stressing about a close centre to get the <span class="highlight">covid-19 </span>,
+                        vaccineuntil I tried Vaccination.ng”
                     </p>
                 </div>
             </div>
@@ -374,11 +409,18 @@
                     <img src="assest/image/injection.png" alt="">
                 </div>
                 <div class="testimonial">
-                    <img src="" alt="Person 3" />
-                    <h4>Kafaru Temitope</h4>
-                    <p class="location">Obanikoro, Lagos</p>
-                    <p class="text">
-                        “Been stressing about a close centre to get the covid-19 vaccine, until I tried Vaccination.ng”
+                    <div class="testiomoal-flex">
+                        <img src="assest/image/Rectangle 24.png" alt="Person 1" />
+
+                        <div class="testimonal-content">
+                            <h4 class="testimonal-head">Oyindamola Maja</h4>
+
+                            <p class="location">Badagry, Lagos</p>
+                        </div>
+                    </div>
+                    <p class="text-tstimonal">
+                        “Been stressing about a close centre to get the <span class="highlight">covid-19 </span>,vaccine
+                        until I tried Vaccination.ng”
                     </p>
                 </div>
             </div>
@@ -386,43 +428,34 @@
     </section>
 
     <section class="quote-section">
-        <h3>Get a quote</h3>
-        <p>Please do enter your email address below</p>
+        <h3 class="quote-head">Get a quote</h3>
+        <p class="quote-description">Please do enter your email address below</p>
         <div class="email-box">
             <input type="email" placeholder="lenux.ng@gmail.com" />
-            <button><span>icon</span></button>
+            <button><span><img src="assest/image/send.png" alt="" class="send-icon"> </span></button>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <h4>Vaccination.ng</h4>
-            <nav>
-                <a href="#" class="active">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Schedule</a>
-                <a href="#">Contact us</a>
-            </nav>
-            <div class="social-icons">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+
+        <div class="container">
+            <div class="footer-content">
+                <img src="assest/image/Group 3.png" alt="logo" class="footer-logo">
+                <nav class="footer-nav">
+                    <a href="#" class="active footer-link">Home</a>
+                    <a href="#" class="footer-link">Services</a>
+                    <a href="#" class="footer-link">Schedule</a>
+                    <a href="#" class="footer-link">Contact us</a>
+                </nav>
+                <div class="social-icons">
+                    <a href="#"><img src="assest/image/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="assest/image/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="assest/image/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="assest/image/youtube.png " alt="LinkedIn"></a>
+                </div>
             </div>
         </div>
     </footer>
-
-    
-    
-
-
-
-
-
-
-
-
-
 
 
 
@@ -434,7 +467,7 @@
     <script>
 
         var mainSwiper = new Swiper(".mainSwiper", {
-            loop: true, 
+            loop: true,
             autoplay: {
                 delay: 3000,
             }
